@@ -1,0 +1,36 @@
+{
+  "name": "inbox-popup",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-oauth/google": "^0.11.0",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.21",
+    "gmail-api-parse-message": "^2.1.2",
+    "gmail-api-parse-message-ts": "^2.2.32",
+    "react": "^18.2.0",
+    "react-chrome-extension-router": "^1.4.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.1",
+    "vite-plugin-svgr": "^3.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.18",
+    "@types/chrome": "^0.0.241",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  height: 400px;
+  background: #202023;
+}
+.no-token {
+  width: 500px;
+  height: 400px;
+  background: #202023;
+  color: white;
+  padding: 15px;
+}
+.content-title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.sign-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-btn {
+  margin: 0 auto;
+  background: #319795;
+  height: 2.5rem;
+  min-width: 2.25rem;
+  outline: none;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-size: 700;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.sign-btn:hover {
+  background: #2c7a7b;
+}
