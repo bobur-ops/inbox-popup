@@ -8,20 +8,10 @@ import {
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { APP_ROUTES } from "../../config/routes";
 
 const Main = () => {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const token = localStorage.getItem("google_token");
-    if (!token) {
-      navigate(APP_ROUTES.SIGN_IN);
-    }
-  }, []);
-
   return (
     <Container maxW={"container.md"} py={14}>
       <Box>
