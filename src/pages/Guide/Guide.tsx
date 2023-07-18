@@ -33,7 +33,7 @@ const Guide: React.FC = () => {
             </Link>
           </Box>
           <Image
-            src="/public/guide/1.jpg"
+            src="/guide/1.jpg"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -46,7 +46,7 @@ const Guide: React.FC = () => {
             Extract Files
           </Heading>
           <Image
-            src="/public/guide/2.jpg"
+            src="/guide/2.jpg"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -58,7 +58,7 @@ const Guide: React.FC = () => {
             You will see a folder <b>dist</b>
           </Text>
           <Image
-            src="/public/guide/3.png"
+            src="/guide/3.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -77,7 +77,7 @@ const Guide: React.FC = () => {
 
           <Text mb={2}> - Turn on the developer mode</Text>
           <Image
-            src="/public/guide/4.png"
+            src="/guide/4.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -90,7 +90,7 @@ const Guide: React.FC = () => {
             - Click on the button <Code>Load unpacked</Code>
           </Text>
           <Image
-            src="/public/guide/5.png"
+            src="/guide/5.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -104,7 +104,7 @@ const Guide: React.FC = () => {
             <Code>Select Folder</Code>
           </Text>
           <Image
-            src="/public/guide/6.png"
+            src="/guide/6.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -117,7 +117,7 @@ const Guide: React.FC = () => {
             - Here you are! The extension is loaded and you can use it
           </Text>
           <Image
-            src="/public/guide/7.png"
+            src="/guide/7.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"
@@ -128,7 +128,7 @@ const Guide: React.FC = () => {
 
           <Text mb={2}>- Pin the extension so it is easy to use</Text>
           <Image
-            src="/public/guide/8.png"
+            src="/guide/8.png"
             alt="guide-img"
             placeholder="blur"
             loading="lazy"

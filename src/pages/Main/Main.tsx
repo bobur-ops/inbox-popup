@@ -47,7 +47,7 @@ const Main = () => {
               without interrupting your workflow.
             </Text>
             <Image
-              src="/public/feat/1.jpg"
+              src="/feat/1.jpg"
               alt="guide-img"
               placeholder="blur"
               loading="lazy"
@@ -61,7 +61,7 @@ const Main = () => {
               An Inbox that you can get an access without opening a new tab
             </Text>
             <Image
-              src="/public/feat/2.jpg"
+              src="/feat/2.jpg"
               alt="guide-img"
               placeholder="blur"
               loading="lazy"
