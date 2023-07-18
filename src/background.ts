@@ -9,7 +9,6 @@ if (typeof chrome !== "undefined" && chrome.runtime) {
       chrome.tabs.create({ url: "popup.html" });
     }
   });
-  chrome.browserAction.setIcon({ path: "/icon.png" });
 }
 
 export const setToken = (token: string) => {

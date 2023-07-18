@@ -27,7 +27,9 @@ function Popup() {
         <div className={styles["sign-container"]}>
           <button
             onClick={() => {
-              chrome.tabs.create({ url: "http://localhost:5173/signin" });
+              chrome.tabs.create({
+                url: "https://inbox-popup.vercel.app/signin",
+              });
             }}
             className={styles["sign-btn"]}
           >
