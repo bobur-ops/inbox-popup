@@ -1,7 +1,7 @@
 if (typeof chrome !== "undefined" && chrome.runtime) {
   // Running inside the extension
   chrome.runtime.onInstalled.addListener(() => {
-    chrome.tabs.create({ url: "https://inbox-popup.vercel.app" });
+    chrome.tabs.create({ url: `${import.meta.env.VITE_WEB_URL}` });
   });
 
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {

@@ -10,7 +10,7 @@ import theme from "./lib/theme";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId="45364919601-57a894l631usr7u167u55eqv0ipjuo1i.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
       <ChakraBaseProvider theme={theme}>
         <Fonts />
         <BrowserRouter>

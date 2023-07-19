@@ -22,13 +22,13 @@ function Popup() {
     return (
       <div className={styles["no-token"]}>
         <div className={styles["content-title"]}>
-          It seems like you are not signed in
+          It seems like you are not signed in bro
         </div>
         <div className={styles["sign-container"]}>
           <button
             onClick={() => {
               chrome.tabs.create({
-                url: "https://inbox-popup.vercel.app/signin",
+                url: `${import.meta.env.VITE_WEB_URL}/signin`,
               });
             }}
             className={styles["sign-btn"]}
